@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		658C9C3C14D5FD6300FC9226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C3B14D5FD6300FC9226 /* UIKit.framework */; };
+		658C9C3E14D5FD6300FC9226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C3D14D5FD6300FC9226 /* Foundation.framework */; };
+		658C9C4014D5FD6300FC9226 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C3F14D5FD6300FC9226 /* CoreGraphics.framework */; };
+		658C9C4614D5FD6300FC9226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 658C9C4414D5FD6300FC9226 /* InfoPlist.strings */; };
+		658C9C4814D5FD6300FC9226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C9C4714D5FD6300FC9226 /* main.m */; };
+		658C9C4C14D5FD6300FC9226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C9C4B14D5FD6300FC9226 /* AppDelegate.m */; };
+		658C9C4F14D5FD6300FC9226 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658C9C4D14D5FD6300FC9226 /* MainStoryboard_iPhone.storyboard */; };
+		658C9C5214D5FD6300FC9226 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658C9C5014D5FD6300FC9226 /* MainStoryboard_iPad.storyboard */; };
+		658C9C5514D5FD6300FC9226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C9C5414D5FD6300FC9226 /* ViewController.m */; };
+		658C9C5D14D5FD6400FC9226 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C5C14D5FD6400FC9226 /* SenTestingKit.framework */; };
+		658C9C5E14D5FD6400FC9226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C3B14D5FD6300FC9226 /* UIKit.framework */; };
+		658C9C5F14D5FD6400FC9226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C9C3D14D5FD6300FC9226 /* Foundation.framework */; };
+		658C9C6714D5FD6400FC9226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 658C9C6514D5FD6400FC9226 /* InfoPlist.strings */; };
+		658C9C6A14D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C9C6914D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		658C9C6014D5FD6400FC9226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658C9C2E14D5FD6200FC9226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658C9C3614D5FD6300FC9226;
+			remoteInfo = "Power Converter Hello World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		658C9C3714D5FD6300FC9226 /* Power Converter Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Converter Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658C9C3B14D5FD6300FC9226 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		658C9C3D14D5FD6300FC9226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		658C9C3F14D5FD6300FC9226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		658C9C4314D5FD6300FC9226 /* Power Converter Hello World-Info.plist */ = {isa = PBXFileReference; path = "Power Converter Hello World-Info.plist"; sourceTree = "<group>"; };
+		658C9C4514D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		658C9C4714D5FD6300FC9226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658C9C4914D5FD6300FC9226 /* Power Converter Hello World-Prefix.pch */ = {isa = PBXFileReference; path = "Power Converter Hello World-Prefix.pch"; sourceTree = "<group>"; };
+		658C9C4A14D5FD6300FC9226 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		658C9C4B14D5FD6300FC9226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		658C9C4E14D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		658C9C5114D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		658C9C5314D5FD6300FC9226 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		658C9C5414D5FD6300FC9226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		658C9C5B14D5FD6400FC9226 /* Power Converter Hello WorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Converter Hello WorldTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658C9C5C14D5FD6400FC9226 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		658C9C6414D5FD6400FC9226 /* Power Converter Hello WorldTests-Info.plist */ = {isa = PBXFileReference; path = "Power Converter Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
+		658C9C6614D5FD6400FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		658C9C6814D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.h */ = {isa = PBXFileReference; path = Power_Converter_Hello_WorldTests.h; sourceTree = "<group>"; };
+		658C9C6914D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_Converter_Hello_WorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658C9C3414D5FD6300FC9226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C3C14D5FD6300FC9226 /* UIKit.framework in Frameworks */,
+				658C9C3E14D5FD6300FC9226 /* Foundation.framework in Frameworks */,
+				658C9C4014D5FD6300FC9226 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658C9C5714D5FD6400FC9226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C5D14D5FD6400FC9226 /* SenTestingKit.framework in Frameworks */,
+				658C9C5E14D5FD6400FC9226 /* UIKit.framework in Frameworks */,
+				658C9C5F14D5FD6400FC9226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		658C9C2C14D5FD6200FC9226 = {
+			isa = PBXGroup;
+			children = (
+				658C9C4114D5FD6300FC9226 /* Power Converter Hello World */,
+				658C9C6214D5FD6400FC9226 /* Power Converter Hello WorldTests */,
+				658C9C3A14D5FD6300FC9226 /* Frameworks */,
+				658C9C3814D5FD6300FC9226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		658C9C3814D5FD6300FC9226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C3714D5FD6300FC9226 /* Power Converter Hello World.app */,
+				658C9C5B14D5FD6400FC9226 /* Power Converter Hello WorldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658C9C3A14D5FD6300FC9226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C3B14D5FD6300FC9226 /* UIKit.framework */,
+				658C9C3D14D5FD6300FC9226 /* Foundation.framework */,
+				658C9C3F14D5FD6300FC9226 /* CoreGraphics.framework */,
+				658C9C5C14D5FD6400FC9226 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658C9C4114D5FD6300FC9226 /* Power Converter Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C4A14D5FD6300FC9226 /* AppDelegate.h */,
+				658C9C4B14D5FD6300FC9226 /* AppDelegate.m */,
+				658C9C4D14D5FD6300FC9226 /* MainStoryboard_iPhone.storyboard */,
+				658C9C5014D5FD6300FC9226 /* MainStoryboard_iPad.storyboard */,
+				658C9C5314D5FD6300FC9226 /* ViewController.h */,
+				658C9C5414D5FD6300FC9226 /* ViewController.m */,
+				658C9C4214D5FD6300FC9226 /* Supporting Files */,
+			);
+			path = "Power Converter Hello World";
+			sourceTree = "<group>";
+		};
+		658C9C4214D5FD6300FC9226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C4314D5FD6300FC9226 /* Power Converter Hello World-Info.plist */,
+				658C9C4414D5FD6300FC9226 /* InfoPlist.strings */,
+				658C9C4714D5FD6300FC9226 /* main.m */,
+				658C9C4914D5FD6300FC9226 /* Power Converter Hello World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		658C9C6214D5FD6400FC9226 /* Power Converter Hello WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C6814D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.h */,
+				658C9C6914D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m */,
+				658C9C6314D5FD6400FC9226 /* Supporting Files */,
+			);
+			path = "Power Converter Hello WorldTests";
+			sourceTree = "<group>";
+		};
+		658C9C6314D5FD6400FC9226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				658C9C6414D5FD6400FC9226 /* Power Converter Hello WorldTests-Info.plist */,
+				658C9C6514D5FD6400FC9226 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658C9C3614D5FD6300FC9226 /* Power Converter Hello World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658C9C6D14D5FD6400FC9226 /* Build configuration list for PBXNativeTarget "Power Converter Hello World" */;
+			buildPhases = (
+				658C9C3314D5FD6300FC9226 /* Sources */,
+				658C9C3414D5FD6300FC9226 /* Frameworks */,
+				658C9C3514D5FD6300FC9226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Converter Hello World";
+			productName = "Power Converter Hello World";
+			productReference = 658C9C3714D5FD6300FC9226 /* Power Converter Hello World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		658C9C5A14D5FD6400FC9226 /* Power Converter Hello WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658C9C7014D5FD6400FC9226 /* Build configuration list for PBXNativeTarget "Power Converter Hello WorldTests" */;
+			buildPhases = (
+				658C9C5614D5FD6400FC9226 /* Sources */,
+				658C9C5714D5FD6400FC9226 /* Frameworks */,
+				658C9C5814D5FD6400FC9226 /* Resources */,
+				658C9C5914D5FD6400FC9226 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658C9C6114D5FD6400FC9226 /* PBXTargetDependency */,
+			);
+			name = "Power Converter Hello WorldTests";
+			productName = "Power Converter Hello WorldTests";
+			productReference = 658C9C5B14D5FD6400FC9226 /* Power Converter Hello WorldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658C9C2E14D5FD6200FC9226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 658C9C3114D5FD6200FC9226 /* Build configuration list for PBXProject "Power Converter Hello World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 658C9C2C14D5FD6200FC9226;
+			productRefGroup = 658C9C3814D5FD6300FC9226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658C9C3614D5FD6300FC9226 /* Power Converter Hello World */,
+				658C9C5A14D5FD6400FC9226 /* Power Converter Hello WorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658C9C3514D5FD6300FC9226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C4614D5FD6300FC9226 /* InfoPlist.strings in Resources */,
+				658C9C4F14D5FD6300FC9226 /* MainStoryboard_iPhone.storyboard in Resources */,
+				658C9C5214D5FD6300FC9226 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658C9C5814D5FD6400FC9226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C6714D5FD6400FC9226 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658C9C5914D5FD6400FC9226 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658C9C3314D5FD6300FC9226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C4814D5FD6300FC9226 /* main.m in Sources */,
+				658C9C4C14D5FD6300FC9226 /* AppDelegate.m in Sources */,
+				658C9C5514D5FD6300FC9226 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658C9C5614D5FD6400FC9226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658C9C6A14D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		658C9C6114D5FD6400FC9226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658C9C3614D5FD6300FC9226 /* Power Converter Hello World */;
+			targetProxy = 658C9C6014D5FD6400FC9226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		658C9C4414D5FD6300FC9226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658C9C4514D5FD6300FC9226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		658C9C4D14D5FD6300FC9226 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658C9C4E14D5FD6300FC9226 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		658C9C5014D5FD6300FC9226 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658C9C5114D5FD6300FC9226 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		658C9C6514D5FD6400FC9226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658C9C6614D5FD6400FC9226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		658C9C6B14D5FD6400FC9226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		658C9C6C14D5FD6400FC9226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		658C9C6E14D5FD6400FC9226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Converter Hello World/Power Converter Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Power Converter Hello World/Power Converter Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		658C9C6F14D5FD6400FC9226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Converter Hello World/Power Converter Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Power Converter Hello World/Power Converter Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		658C9C7114D5FD6400FC9226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Power Converter Hello World.app/Power Converter Hello World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Converter Hello World/Power Converter Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Power Converter Hello WorldTests/Power Converter Hello WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		658C9C7214D5FD6400FC9226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Power Converter Hello World.app/Power Converter Hello World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Converter Hello World/Power Converter Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Power Converter Hello WorldTests/Power Converter Hello WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658C9C3114D5FD6200FC9226 /* Build configuration list for PBXProject "Power Converter Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658C9C6B14D5FD6400FC9226 /* Debug */,
+				658C9C6C14D5FD6400FC9226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658C9C6D14D5FD6400FC9226 /* Build configuration list for PBXNativeTarget "Power Converter Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658C9C6E14D5FD6400FC9226 /* Debug */,
+				658C9C6F14D5FD6400FC9226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		658C9C7014D5FD6400FC9226 /* Build configuration list for PBXNativeTarget "Power Converter Hello WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658C9C7114D5FD6400FC9226 /* Debug */,
+				658C9C7214D5FD6400FC9226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 658C9C2E14D5FD6200FC9226 /* Project object */;
+}
