@@ -38,21 +38,21 @@
 		658C9C3B14D5FD6300FC9226 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		658C9C3D14D5FD6300FC9226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		658C9C3F14D5FD6300FC9226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		658C9C4314D5FD6300FC9226 /* Power Converter Hello World-Info.plist */ = {isa = PBXFileReference; path = "Power Converter Hello World-Info.plist"; sourceTree = "<group>"; };
+		658C9C4314D5FD6300FC9226 /* Power Converter Hello World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Converter Hello World-Info.plist"; sourceTree = "<group>"; };
 		658C9C4514D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		658C9C4714D5FD6300FC9226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		658C9C4914D5FD6300FC9226 /* Power Converter Hello World-Prefix.pch */ = {isa = PBXFileReference; path = "Power Converter Hello World-Prefix.pch"; sourceTree = "<group>"; };
-		658C9C4A14D5FD6300FC9226 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		658C9C4914D5FD6300FC9226 /* Power Converter Hello World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power Converter Hello World-Prefix.pch"; sourceTree = "<group>"; };
+		658C9C4A14D5FD6300FC9226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		658C9C4B14D5FD6300FC9226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		658C9C4E14D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		658C9C5114D5FD6300FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		658C9C5314D5FD6300FC9226 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		658C9C5314D5FD6300FC9226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		658C9C5414D5FD6300FC9226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		658C9C5B14D5FD6400FC9226 /* Power Converter Hello WorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Converter Hello WorldTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		658C9C5C14D5FD6400FC9226 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		658C9C6414D5FD6400FC9226 /* Power Converter Hello WorldTests-Info.plist */ = {isa = PBXFileReference; path = "Power Converter Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
+		658C9C6414D5FD6400FC9226 /* Power Converter Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Converter Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
 		658C9C6614D5FD6400FC9226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		658C9C6814D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.h */ = {isa = PBXFileReference; path = Power_Converter_Hello_WorldTests.h; sourceTree = "<group>"; };
+		658C9C6814D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power_Converter_Hello_WorldTests.h; sourceTree = "<group>"; };
 		658C9C6914D5FD6400FC9226 /* Power_Converter_Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_Converter_Hello_WorldTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
